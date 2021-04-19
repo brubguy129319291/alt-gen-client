@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.background {
+    height: 100vh;
+    background: linear-gradient(rgb(41, 41, 41),rgb(34, 34, 34));
+}
+
+.recorder {
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgb(180, 199, 9);
+
+    font-family: "Lucida Console";
+    font-weight: bold;
+    
+}
