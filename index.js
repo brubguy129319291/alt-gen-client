@@ -9,7 +9,7 @@ const PORT = 3000
 
 app.use(express.static(__dirname+"/client"))
 
-/*we have to obfuscate this part cus we obfuscate our cookies and it would be bad if you knew how we deobfuscate them
+/*we have to obfuscate this part cus we obfuscate our cookies
 This is what the code would look like without obfuscation:
 
 app.get("/:id", async (req, res) => {
