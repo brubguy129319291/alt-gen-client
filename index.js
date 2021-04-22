@@ -7,8 +7,6 @@ const getLink = require("./utilities/getLaunchData.js")
 const app = express()
 const PORT = 3000
 
-app.use(express.static(__dirname+"/client"))
-
 /*we have to obfuscate this part cus we obfuscate our cookies
 This is what the code would look like without obfuscation:
 
