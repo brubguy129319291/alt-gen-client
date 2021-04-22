@@ -33,12 +33,6 @@ app.get("/:id", async (req, res) => {
     <html>
         <head>
             <title>Apathy | Alt Generator</title>
-    
-            <!--favicon-->
-            <link rel="shortcut icon" type="image/jpg" href="/images/icon.png"/>
-    
-            <!--Style-->
-            <link rel="stylesheet" href="/public/style.css">
 
             <!--Main-->
             <script>
